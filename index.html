@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flower Shop</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+  <!-- nav section start -->
+  <nav class="bg-white px-4 py-6">
+    <div class="max-w-[1140px] mx-auto flex justify-between items-center">
+      <!-- Logo -->
+      <div class="flex items-center">
+        <img src="assets/logo.png" alt="Logo">
+      </div>
+      
+      <!-- Desktop Menu -->
+      <div class="hidden md:flex items-center space-x-8">
+        <a href="#" class="text-gray-800 hover:text-orange-500">Home</a>
+        <a href="#" class="text-gray-500 hover:text-orange-500">Shop</a>
+        <a href="#" class="text-gray-500 hover:text-orange-500">About us</a>
+        
+        <!-- Cart -->
+        <div class="flex items-center space-x-2 text-gray-800">
+          <img src="assets/shopping-cart.svg" alt="Cart" class="h-5 w-5">
+          <span>Cart ($56)</span>
+        </div>
+      </div>
+      
+      <!-- Mobile Cart Only -->
+      <div class="md:hidden flex items-center space-x-2 text-gray-800">
+        <img src="assets/shopping-cart.svg" alt="Cart" class="h-5 w-5">
+        <span>Cart ($56)</span>
+      </div>
+    </div>
+  </nav>
+  <!-- nav section close -->
+
+  <!-- hero section start -->
+  <section class="px-4 py-16">
+    <div class="max-w-[1140px] mx-auto">
+      <!-- Responsive Layout -->
+      <div class="flex flex-col md:flex-row md:items-center">
+        <!-- Image (First on Mobile, Second on Desktop) -->
+        <div class="w-full md:w-1/2 md:order-2 mb-8 md:mb-0">
+          <img src="assets/hero-flower.png" alt="Fresh Flowers" class="w-full h-auto">
+        </div>
+        
+        <!-- Content (Second on Mobile, First on Desktop) -->
+        <div class="w-full md:w-1/2 md:order-1 md:pr-8">
+          <h1 class="text-4xl md:text-6xl font-bold text-gray-900 leading-tight mb-6">
+            ALWAYS <span class="text-orange-500">FRESH FLOWERS</span>
+          </h1>
+          <p class="text-base md:text-lg text-gray-600 leading-relaxed">
+            Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- hero section close -->
+
+
+  <!-- our plants section start -->
+  
+  <!-- our plants section close -->
+
+</body>
+</html>
