@@ -52,13 +52,13 @@
   <!-- nav section close -->
 
   <!-- hero section start -->
-  <section class="px-4 py-16 md:pt-40">
+  <section class="px-4 py-5 md:py-16 md:pt-40">
     <div class="max-w-[1140px] mx-auto">
       <!-- Responsive Layout -->
       <div class="flex flex-col md:flex-row md:items-end">
         <!-- Image (First on Mobile, Second on Desktop) -->
         <div class="w-full md:w-1/2 md:order-2 mb-8 md:mb-0">
-          <img src="assets/hero-flower.png" alt="Fresh Flowers" class="w-full h-auto">
+          <img src="assets/hero-flower.png" alt="Fresh Flowers" class="w-full h-auto rounded-lg">
         </div>
 
         <!-- Content (Second on Mobile, First on Desktop) -->
@@ -78,10 +78,10 @@
 
 
   <!-- our plants section start -->
-  <section class="px-4 py-16">
+  <section class="px-4 py-5 md:py-16">
     <div class="max-w-[1140px] mx-auto">
       <!-- Section Header -->
-      <div class="text-center mb-12">
+      <div class="text-center mb-10">
 
         <h2 class="text-[24px] md:text-[50px] font-bold text-gray-900 leading-tight mb-6 noto-serif-bold">
           Our <span class="text-orange-500">Plants</span>
@@ -209,7 +209,7 @@
 
 
   <!-- content section start -->
-  <section class="px-4 py-16 md:pt-40">
+  <section class="px-4 py-5 md:py-16 md:pt-40">
     <div class="max-w-[1140px] mx-auto">
       <!-- Responsive Layout -->
       <div class="flex flex-col md:flex-row md:items-center">
@@ -262,7 +262,7 @@
   <!-- content section close -->
 
   <!-- latest deal section start -->
-  <section class="px-4 py-16">
+  <section class="px-4 py-5 md:py-16">
     <div class="max-w-[1140px] mx-auto">
       <!-- Section Header -->
       
@@ -322,7 +322,7 @@
   <!-- latest deal section close -->
 
   <!-- join section start -->
-  <section class="relative md:py-40 pt-25 pb-16"
+  <section class="relative px-4 md:py-40 pt-25 pb-16"
     style="background-image: url('assets/news-letter-bg.png'); background-size: cover; background-position: center; background-repeat: no-repeat;">
     <!-- Overlay -->
     <div class="absolute inset-0 bg-[#00000012]"></div>
@@ -405,6 +405,22 @@
     </div>
   </footer>
   <!-- footer section close -->
+
+
+<script>
+  // Button Click and show alert
+  document.addEventListener('DOMContentLoaded', function() {
+    var buttons = document.getElementsByClassName('add-to-cart');
+    
+    for (var i = 0; i < buttons.length; i++) {
+      buttons[i].addEventListener('click', function() {
+        alert('Flower Added to Cart');
+      });
+    }
+  });
+</script>
+
+
 
 </body>
 
