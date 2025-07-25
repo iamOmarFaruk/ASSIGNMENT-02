@@ -46,7 +46,7 @@
 .inter-semi-bold {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 600;
+  font-weight: 600!important;
   font-style: normal;
   font-variation-settings:
     "wdth" 100,
