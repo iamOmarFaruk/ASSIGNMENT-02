@@ -4,7 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Flower Shop</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="/style.css">
 </head>
 <body class="bg-[#F6F8FF]">
   <!-- nav section start -->
@@ -12,24 +20,24 @@
     <div class="max-w-[1140px] mx-auto flex justify-between items-center">
       <!-- Logo -->
       <div class="flex items-center">
-        <img src="assets/logo.png" class="max-w-[135px] w-full" alt="Logo">
+        <img src="assets/logo.png" class="md:max-w-[135px] max-w-[63px] w-full" alt="Logo">
       </div>
       
       <!-- Desktop Menu -->
       <div class="hidden md:flex items-center space-x-8">
-        <a href="#" class="text-gray-800 hover:text-orange-500">Home</a>
-        <a href="#" class="text-gray-500 hover:text-orange-500">Shop</a>
-        <a href="#" class="text-gray-500 hover:text-orange-500">About us</a>
-        
+        <a href="#" class="text-[#252432] hover:text-orange-500 hover:font-bold inter-bold transition-all duration-300">Home</a>
+        <a href="#" class="text-[#8987A1] hover:text-orange-500 hover:font-bold inter-regular transition-all duration-300">Shop</a>
+        <a href="#" class="text-[#8987A1] hover:text-orange-500 hover:font-bold inter-regular transition-all duration-300">About us</a>
+
         <!-- Cart -->
-        <div class="flex items-center space-x-2 text-gray-800">
+        <div class="flex items-center space-x-2 text-gray-800 cursor-pointer">
           <img src="assets/shopping-cart.svg" alt="Cart" class="h-5 w-5">
           <span>Cart ($56)</span>
         </div>
       </div>
       
       <!-- Mobile Cart Only -->
-      <div class="md:hidden flex items-center space-x-2 text-gray-800">
+      <div class="md:hidden flex items-center space-x-2 text-gray-800 cursor-pointer">
         <img src="assets/shopping-cart.svg" alt="Cart" class="h-5 w-5">
         <span>Cart ($56)</span>
       </div>
@@ -38,7 +46,7 @@
   <!-- nav section close -->
 
   <!-- hero section start -->
-  <section class="px-4 py-16">
+  <section class="px-4 py-16 pt-40">
     <div class="max-w-[1140px] mx-auto">
       <!-- Responsive Layout -->
       <div class="flex flex-col md:flex-row md:items-center">
