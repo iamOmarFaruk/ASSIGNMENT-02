@@ -353,22 +353,23 @@
   <!-- footer section start -->
   <footer class="bg-[#FAFBFF] px-4 py-16">
     <div class="max-w-[1140px] mx-auto">
-      <!-- Desktop Layout: Two columns -->
-      <div class="hidden md:flex justify-between items-start">
+      <!-- Responsive Layout -->
+      <div class="flex flex-col md:flex-row md:justify-between md:items-end space-y-8 md:space-y-0 md:gap-5">
         <!-- Left Column: Logo and Description -->
-        <div class="w-1/2 pr-8">
-          <div class="mb-6">
-            <img src="assets/logo.png" alt="Fauget Flower Shop" class="mb-4">
+        <div class="md:text-left md:max-w-[400px]">
+          <div class="mb-6 max-w-[180px] md:max-w-[135px]">
+            <img src="assets/logo.png" alt="Fauget Flower Shop" class="mx-auto md:mx-0 mb-4">
           </div>
-          <p class="text-[14px] md:text-[22px] text-[#8987A1] leading-relaxed">
-          Indulge your senses with the beauty and fragrance of our fresh flower shop.
-          </p>
+          
+            <p class="text-[16px] md:text-[22px] text-[#8987A1] leading-relaxed">
+              Indulge your senses with the beauty and fragrance of our fresh flower shop.
+            </p>
         </div>
 
         <!-- Right Column: Navigation and Social Media -->
-        <div class="w-1/2 flex justify-between">
+        <div class="flex flex-col space-y-8 md:flex-row md:space-y-0 md:justify-between md:w-1/2">
           <!-- Navigation Links -->
-          <div class="flex flex-col space-y-4">
+          <div class="flex flex-col space-y-3 md:space-y-7  md:text-left">
             <a href="#" class="text-[#6B7280] hover:text-orange-500 transition-colors">Home</a>
             <a href="#" class="text-[#6B7280] hover:text-orange-500 transition-colors">About Us</a>
             <a href="#" class="text-[#6B7280] hover:text-orange-500 transition-colors">Blog</a>
@@ -376,7 +377,7 @@
             <a href="#" class="text-[#6B7280] hover:text-orange-500 transition-colors">Contact Us</a>
           </div>
 
-          <div class="flex flex-col space-y-4">
+          <div class="flex flex-col space-y-3 md:space-y-7  md:text-left">
             <a href="#" class="text-[#6B7280] hover:text-orange-500 transition-colors">Features</a>
             <a href="#" class="text-[#6B7280] hover:text-orange-500 transition-colors">Pricing</a>
             <a href="#" class="text-[#6B7280] hover:text-orange-500 transition-colors">Privacy Policy</a>
@@ -385,7 +386,7 @@
           </div>
 
           <!-- Social Media Icons -->
-          <div class="flex gap-5 space-y-4">
+          <div class="flex justify-center md:justify-start gap-5 space-x-6 md:space-x-0 md:space-y-4">
             <a href="#" class="hover:opacity-80 transition-opacity">
               <img src="assets/icon-linkedin.png" alt="LinkedIn" class="w-6 h-6">
             </a>
@@ -399,57 +400,6 @@
               <img src="assets/icon-youtube.png" alt="YouTube" class="w-6 h-6">
             </a>
           </div>
-        </div>
-      </div>
-
-      <!-- Mobile Layout: Single column -->
-      <div class="md:hidden flex flex-col space-y-8">
-        <!-- Logo and Description -->
-        <div class="text-center">
-          <div class="mb-6">
-            <img src="assets/logo.png" alt="Fauget Flower Shop" class="mx-auto mb-4">
-          </div>
-          <p class="text-gray-600 text-base leading-relaxed">
-            Indulge your senses with the beauty and fragrance of our fresh flower shop.
-          </p>
-        </div>
-
-        <!-- Navigation Links - Left Column -->
-        <div class="text-center">
-          <div class="flex flex-col space-y-3">
-            <a href="#" class="text-gray-600 hover:text-orange-500 transition-colors">Home</a>
-            <a href="#" class="text-gray-600 hover:text-orange-500 transition-colors">About Us</a>
-            <a href="#" class="text-gray-600 hover:text-orange-500 transition-colors">Blog</a>
-            <a href="#" class="text-gray-600 hover:text-orange-500 transition-colors">FAQ</a>
-            <a href="#" class="text-gray-600 hover:text-orange-500 transition-colors">Contact Us</a>
-          </div>
-        </div>
-
-        <!-- Navigation Links - Right Column -->
-        <div class="text-center">
-          <div class="flex flex-col space-y-3">
-            <a href="#" class="text-gray-600 hover:text-orange-500 transition-colors">Features</a>
-            <a href="#" class="text-gray-600 hover:text-orange-500 transition-colors">Pricing</a>
-            <a href="#" class="text-gray-600 hover:text-orange-500 transition-colors">Privacy Policy</a>
-            <a href="#" class="text-gray-600 hover:text-orange-500 transition-colors">Terms of Service</a>
-            <a href="#" class="text-gray-600 hover:text-orange-500 transition-colors">Help Center</a>
-          </div>
-        </div>
-
-        <!-- Social Media Icons -->
-        <div class="flex justify-center space-x-6">
-          <a href="#" class="hover:opacity-80 transition-opacity">
-            <img src="assets/icon-linkedin.png" alt="LinkedIn" class="w-6 h-6">
-          </a>
-          <a href="#" class="hover:opacity-80 transition-opacity">
-            <img src="assets/icon-facebook.png" alt="Facebook" class="w-6 h-6">
-          </a>
-          <a href="#" class="hover:opacity-80 transition-opacity">
-            <img src="assets/icon-twitter.png" alt="Twitter" class="w-6 h-6">
-          </a>
-          <a href="#" class="hover:opacity-80 transition-opacity">
-            <img src="assets/icon-youtube.png" alt="YouTube" class="w-6 h-6">
-          </a>
         </div>
       </div>
     </div>
